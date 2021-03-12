@@ -1,6 +1,6 @@
 variables:
-  ml-ws-connection: 'azmldemows' # Workspace Service Connection name
-  ml-ws: 'aml-demo' # AML Workspace name
+  ml-ws-connection: 'aml-demo' # Workspace Service Connection name
+  ml-ws: 'aml-demo-1' # AML Workspace name
   ml-rg: 'aman-ml-rg' # AML resource Group name
   ml-ct: 'cpu-cluster-1' # AML Compute cluster name
   ml-path: 'models/diabetes' # Model directory path in repo
