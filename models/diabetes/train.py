@@ -35,7 +35,7 @@ for alpha in alphas:
     preds = reg.predict(data["test"]["X"])
     mse = mean_squared_error(preds, data["test"]["y"])
     run.log('alpha', alpha)
-    run.log('mse', mse)
+    run.log('MSE', mse)
 
     # Save model in the outputs folder so it automatically get uploaded when running on AML Compute
     model_file_name = 'ridge_{0:.2f}.pkl'.format(alpha)
